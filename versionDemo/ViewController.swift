@@ -12,7 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        createElements()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func createElements()
+    {
+        print("create elements")
+        
     }
 
     override func didReceiveMemoryWarning() {
